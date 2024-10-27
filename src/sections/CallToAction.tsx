@@ -1,7 +1,8 @@
+'use client'
 import { Button } from "@/components/Button"; // Assuming Button is a custom component
 import starsBg from "@/assets/stars.png";
 import gridLines from "@/assets/grid-lines.png";
-
+import { motion } from "framer-motion";
 
 export const CallToAction = () => {
   return (
